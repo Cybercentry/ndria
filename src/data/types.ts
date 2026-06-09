@@ -59,6 +59,10 @@ export interface Protocol {
   defillamaSlug?: string;
   /** Governance summary with provenance - populated from verifiable sources. */
   governance?: GovernanceDatum[];
+  /** Security audit history (RFP protocol detail page). Sourced and linked, not fabricated. */
+  audits?: Audit[];
+  /** Incident / exploit history (RFP protocol detail page). Sourced and linked. */
+  incidents?: Incident[];
 }
 
 export interface GovernanceDatum {
@@ -66,6 +70,24 @@ export interface GovernanceDatum {
   value: string;
   provenance: Provenance;
   source?: string;
+}
+
+export interface Audit {
+  auditor: string;
+  date?: string; // ISO date
+  scope?: string;
+  url?: string;
+}
+
+export type IncidentSeverity = "critical" | "high" | "medium" | "low" | "info";
+
+export interface Incident {
+  date?: string; // ISO date
+  summary: string;
+  severity?: IncidentSeverity;
+  /** Approx. funds at risk / lost, if reported (display string, e.g. "$1.2M"). */
+  impact?: string;
+  url?: string;
 }
 
 /**
