@@ -1,0 +1,5 @@
+Contact: mailto:info@cybercentry.co.uk
+Expires: 2027-06-09T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://ndria.up.railway.app/.well-known/security.txt
+Policy: https://github.com/Cybercentry/ndria/blob/main/SECURITY.md
