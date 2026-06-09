@@ -9,7 +9,7 @@ protocol, side by side, verbatim** - without synthesis or scoring.
 Built in response to the Ethereum Foundation App Relations
 [RFP: Neutral DeFi Risk Intelligence Aggregator](https://esp.ethereum.foundation/applicants/rfp/defi_risk_intel_agg).
 
-**Live:** https://ndria.up.railway.app
+**Live Reference Implementation:** https://ndria.up.railway.app
 
 ## What this is
 
