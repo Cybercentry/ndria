@@ -1,0 +1,4 @@
+# Local-only artifacts that should not be uploaded to the Railway build context
+proposal/
+*.docx
+*.pdf
