@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Libre_Franklin } from "next/font/google";
 import "./globals.css";
+
+const franklin = Libre_Franklin({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-franklin",
+});
 
 export const metadata: Metadata = {
   title: "NDRIA - Neutral DeFi Risk Intelligence Aggregator",
@@ -14,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={franklin.variable}>
       <body>
         <header className="border-b border-[var(--border)]">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">

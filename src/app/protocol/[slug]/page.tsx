@@ -12,11 +12,11 @@ export function generateStaticParams() {
 }
 
 const SEV_STYLE: Record<string, string> = {
-  critical: "text-red-400",
-  high: "text-orange-400",
-  medium: "text-amber-400",
-  low: "text-yellow-400",
-  info: "text-gray-400",
+  critical: "text-red-600",
+  high: "text-orange-600",
+  medium: "text-amber-600",
+  low: "text-yellow-600",
+  info: "text-stone-500",
 };
 
 // Per-protocol detail page: live TVL (DefiLlama), governance data with provenance tags,
@@ -79,7 +79,7 @@ export default async function ProtocolPage({
                   <td className="py-2 pr-4 text-[var(--muted)]">{g.label}</td>
                   <td className="py-2 pr-4">{g.value}</td>
                   <td className="py-2 text-xs">
-                    <span className="rounded bg-white/10 px-1.5 py-0.5">{g.provenance}</span>
+                    <span className="rounded bg-black/[0.06] px-1.5 py-0.5">{g.provenance}</span>
                   </td>
                 </tr>
               ))}

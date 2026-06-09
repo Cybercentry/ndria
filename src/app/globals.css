@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0b0d10;
-  --fg: #e6e8eb;
-  --muted: #9aa3ad;
-  --border: #1f2429;
+  /* Palette matched to esp.ethereum.foundation */
+  --bg: #fff8ec; /* warm cream page background */
+  --fg: #232264; /* deep indigo text */
+  --muted: #6c6b8f; /* muted indigo */
+  --border: #e7e0d0; /* warm cream border */
+  --accent: #ff4d15; /* ESP orange-red accent */
+  --card: #ffffff; /* card / panel background */
 }
 
 html,
@@ -16,5 +19,10 @@ body {
 }
 
 body {
-  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: var(--font-franklin), "Libre Franklin", ui-sans-serif, system-ui,
+    -apple-system, "Segoe UI", sans-serif;
+}
+
+a {
+  color: var(--accent);
 }

@@ -130,7 +130,7 @@ export function MatrixTable({ tvl }: { tvl: Record<string, number | null> }) {
       <div className="overflow-x-auto rounded border border-[var(--border)]">
         <table className="w-full border-collapse text-sm">
           <thead>
-            <tr className="border-b border-[var(--border)] bg-white/5">
+            <tr className="border-b border-[var(--border)] bg-black/[0.03]">
               <th
                 className="sticky left-0 z-10 cursor-pointer bg-[var(--bg)] px-3 py-2 text-left font-medium"
                 onClick={() => toggleSort("name")}
@@ -170,7 +170,7 @@ export function MatrixTable({ tvl }: { tvl: Record<string, number | null> }) {
           </thead>
           <tbody>
             {rows.map((p) => (
-              <tr key={p.id} className="border-b border-[var(--border)] hover:bg-white/5">
+              <tr key={p.id} className="border-b border-[var(--border)] hover:bg-black/[0.03]">
                 <td className="sticky left-0 z-10 bg-[var(--bg)] px-3 py-2 font-medium">
                   <Link href={`/protocol/${p.id}`} className="hover:underline">
                     {p.name}
@@ -180,7 +180,7 @@ export function MatrixTable({ tvl }: { tvl: Record<string, number | null> }) {
                       {p.versions.map((v) => (
                         <span
                           key={v.label}
-                          className="rounded bg-white/10 px-1 text-[9px] text-[var(--muted)]"
+                          className="rounded bg-black/[0.06] px-1 text-[9px] text-[var(--muted)]"
                         >
                           {v.label}
                         </span>

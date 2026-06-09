@@ -25,8 +25,8 @@ export default async function HomePage() {
           <span>{PROTOCOLS.length} protocols</span>
           <span>{FEEDS.length} feeds</span>
           <span>{s.total} matrix cells</span>
-          <span className="text-green-400">{s.covered} covered</span>
-          <span className="text-amber-400">{s.partial} partial</span>
+          <span className="text-green-700">{s.covered} covered</span>
+          <span className="text-amber-700">{s.partial} partial</span>
           <span>{s.not_yet} not yet</span>
           <span>{s.unknown} unassessed</span>
         </div>
