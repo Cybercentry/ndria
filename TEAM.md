@@ -1,8 +1,8 @@
 # Team & Track Record
 
-Applicant and lead: **Leigh Cronian** / **Cybercentry**.
+Applicant and lead: **Leigh Cronian** ([LinkedIn](https://www.linkedin.com/in/leigh-cronian/)) / **Cybercentry**.
 
-## Leigh Cronian - Lead & Steward
+## Leigh Cronian ([LinkedIn](https://www.linkedin.com/in/leigh-cronian/)) - Lead & Steward
 
 Founder of [Cybercentry](https://centry.cybercentry.co.uk/), a Web3 security and verification
 company. GitHub: [@cybercentry](https://github.com/cybercentry).

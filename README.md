@@ -7,7 +7,7 @@ protocol, side by side, verbatim** - without synthesis or scoring.
 > this important. The aggregation is the value.
 
 Built in response to the Ethereum Foundation App Relations
-[RFP: Neutral DeFi Risk Intelligence Aggregator](https://esp.ethereum.foundation/applicants/rfp/defi_risk_intel_agg/apply).
+[RFP: Neutral DeFi Risk Intelligence Aggregator](https://esp.ethereum.foundation/applicants/rfp/defi_risk_intel_agg).
 
 ## What this is
 
@@ -67,7 +67,7 @@ as such rather than guessed.
 
 ## Team & stewardship
 
-Led and stewarded by **Leigh Cronian / [Cybercentry](https://centry.cybercentry.co.uk/)** - author of Ethereum standards [ERC-8126](https://eips.ethereum.org/EIPS/eip-8126) and
+Led and stewarded by **Leigh Cronian** ([LinkedIn](https://www.linkedin.com/in/leigh-cronian/)) **/ [Cybercentry](https://centry.cybercentry.co.uk/)** - author of Ethereum standards [ERC-8126](https://eips.ethereum.org/EIPS/eip-8126) and
 [ERC-8196](https://eips.ethereum.org/EIPS/eip-8196), and operator of production on-chain
 verification tooling across 30+ EVM chains. See [TEAM.md](./TEAM.md) and
 [STEWARDSHIP.md](./STEWARDSHIP.md).
